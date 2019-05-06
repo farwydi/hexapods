@@ -134,7 +134,7 @@ void setup() {
   Serial.begin(9600);
 
   timeStamp = millis();
-  offsetInit = millis() + 10000;
+  offsetInit = millis() + 5000;
 
   for (int i = 0; i < N_SERVOS; ++i) {
     servo[i].attach(i);
