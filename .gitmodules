@@ -1,0 +1,3 @@
+[submodule "library/Multiservo"]
+	path = library/Multiservo
+	url = https://github.com/amperka/Multiservo.git
